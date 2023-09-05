@@ -1,10 +1,11 @@
-// there are 6 Datatype 
+// there are 7 Datatype 
 
 // Number
 // String
 // Boolean
 // BigInt
 // String
+// undefined
 // Symbol
 
 
