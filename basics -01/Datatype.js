@@ -1,3 +1,5 @@
+
+//Primitive
 // there are 7 Datatype 
 
 // Number
@@ -24,3 +26,29 @@ false;
 null;
 undefined;
 //Empty values
+
+
+
+
+//Non primitive DataType
+
+// Array
+// Object
+// Functions
+
+
+//Arry
+const heros = ["dorman", "pokeman", "naagraj"];
+
+//obj
+
+let myObj = {
+    firstName: "Ajay",
+    lastName: "Thopate",
+    age : 28,
+}
+
+//Function 
+const myFunction = function () {
+    console.log("Hello world");
+}
