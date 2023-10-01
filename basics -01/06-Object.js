@@ -46,3 +46,16 @@ const personPrototype = {
 const john = Object.create(personPrototype);
 john.name = "John";
 john.greet(); 
+
+
+
+
+//Object.entries()
+
+// This is a simple function which converts JS objects to an array of arrays. With inner array is pair of key and value of the object.
+
+let person = { name: "Jay", age: 28 }
+let entries = Object.entriees(person);
+
+console.log(entries); // [[ 'name','Jay'],['age','28']]
+
