@@ -31,3 +31,18 @@ const marks = { score: 60 }
 
 const result = Object.assign(subject, marks);
 console.log(result);
+
+
+//Object.create()
+
+// You can also create object with Object.create() function this has additional flexibility that you can choose what will be prototype of your new object.
+
+const personPrototype = {
+    greet: function () {
+        console.log(`Hello, my name is ${this.name}.`);
+    }
+};
+
+const john = Object.create(personPrototype);
+john.name = "John";
+john.greet(); 
