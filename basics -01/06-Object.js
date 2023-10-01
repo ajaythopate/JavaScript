@@ -65,3 +65,12 @@ console.log(entries); // [[ 'name','Jay'],['age','28']]
 
 let keys = Object.keys(person);
 console.log(keys); // ['name','age']
+
+
+
+// Object.values()
+
+// This function picks only values of objects and returns an array
+
+let values = Object.values(person);
+console.log(values); // ['Jay',28]
